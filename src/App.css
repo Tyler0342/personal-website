@@ -10,7 +10,7 @@
 }
 
 body {
-  font-family: "Oxygen", sans-serif;
+  font-family: "Oxygen", sans-serif !important;
 }
 
 /*NavBar*/
@@ -83,7 +83,6 @@ nav ul li {
   align-items: center;
   text-align: center;
   z-index: 1;
-  font-family: "Oxygen", sans-serif;
 }
 
 main-info h1 {
@@ -136,5 +135,29 @@ main-info h1 {
 @media (max-width: 768px) {
   .particles-canvas {
     display: none;
+  }
+}
+
+/*About-Me*/
+
+.photo-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile-img {
+  width: 16rem;
+  border-radius: 50%;
+  padding: 3rem;
+  border: 1px solid var(--primary-light-blue);
+}
+
+.about-me-header {
+  color: var(--primary-light-blue);
+}
+
+@media (max-width: 468px) {
+  .profile-img {
+    width: 10rem'
   }
 }
