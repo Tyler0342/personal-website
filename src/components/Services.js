@@ -42,7 +42,7 @@ const Services = () => {
                   size="2x"
                 />
               </div>
-              <h3>Facebook SMM</h3>
+              <h3>Facebook</h3>
               <p>
                 Potential Clients will see your services or products on social
                 media

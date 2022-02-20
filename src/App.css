@@ -186,7 +186,7 @@ main-info h1 {
 
 .services .icon {
   font-size: 1.4rem;
-  color: var(--primary-hover-triad);
+  color: var(--primary-white);
   position: absolute;
   top: 50%;
   left: 50%;
@@ -203,17 +203,17 @@ main-info h1 {
 
 .services .box:hover {
   background: var(--primary-blue-triad);
-  border-bottom: 0.3125 solid var(--primary-dark);
+  border-bottom: 0.3125 solid var(--primary-hover-triad);
 }
 
 .services .box:hover .icon {
-  color: var(--primary-dark);
+  color: var(--primary-hover-triad);
 }
 
 .services .box:hover .circle {
-  color: var(--primary-white);
+  color: var(--primary-hover-triad);
 }
 
 .services .box:hover .p {
-  color: var(--primary-white);
+  color: var(--primary-dark);
 }

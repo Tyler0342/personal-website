@@ -13,12 +13,15 @@ const AboutMe = () => {
         <div className="col-lg-6 col-xm-12">
           <h1 className="about-me-header">About Me</h1>
           <p>
-            Hello! I am Tyler. I am a recent Flatiron Bootcamp Grad. I'm a
-            Full-Stack Software Engineer. Technologies I use are JavaScript,
-            React.js, React Native, Ruby on Rails, and SQL. Before I can begin
-            development, I require a project layout, so I know what you expect
-            and we can stay on the same page. Before I create anything for you,
-            we will discuss all the details of what you require.
+            Hello! I'm Tyler. I'm a Full-Stack Software Engineer who has a
+            passion for learning. I love to solve problems and come up with
+            creative solutions. Technologies I use are JavaScript, React.js,
+            Ruby on Rails, and SQL. My hobbies include playing the drums,
+            hiking, and snowboarding. Other interests include blockchain
+            technologies and game development. Before I can begin development
+            for your request, I require a project layout, so we both know what
+            is expected. We will discuss all the details of what you require so
+            that you can have the website that you envision and deserve.
           </p>
         </div>
       </div>
