@@ -5,9 +5,11 @@
   --primary-dark: rgba(255, 255, 255, 0);
   --primary-light-blue: #add8e6;
   --primary-light-green: #d9e6ad;
-  --primary-blue-triad: #67b7d1;
-  --primary-hover-triad: #e6add9;
+  --primary-blue-triad: #7c98ab;
+  --primary-hover-triad: #ab7c98;
   --primary-light-grey: #d3d3d3;
+  --primary-grey: #ccd1d9;
+  --primary-dark-grey: #666666;
 }
 
 body {
@@ -126,7 +128,7 @@ main-info h1 {
 
 /*Particles-js*/
 
-.tsparticles-canvas-el {
+/* .tsparticles-canvas-el {
   position: absolute;
   height: 100vh;
   width: 100vh;
@@ -137,7 +139,7 @@ main-info h1 {
   .particles-canvas {
     display: none;
   }
-}
+} */
 
 /*About-Me*/
 
@@ -150,11 +152,11 @@ main-info h1 {
   width: 16rem;
   border-radius: 50%;
   padding: 3rem;
-  border: 1px solid var(--primary-light-blue);
+  border: 1px solid var(--primary-blue-triad);
 }
 
 .about-me-header {
-  color: var(--primary-light-blue);
+  color: var(--primary-blue-triad);
 }
 
 @media (max-width: 468px) {
@@ -216,4 +218,96 @@ main-info h1 {
 
 .services .box:hover .p {
   color: var(--primary-dark);
+}
+
+/*Experience*/
+
+.experience {
+  padding: 0.7rem;
+}
+
+.experience-wrapper {
+  position: absolute;
+  padding: 3.125rem 0;
+  overflow: hidden;
+}
+
+.experience h1 {
+  /* text-transform: uppercase; */
+  color: var(--primary-blue-triad);
+}
+
+.experience-wrapper:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 50%;
+  margin-left: -0.0625rem;
+  width: 0.125rem;
+  height: 100%;
+  background: var(--primary-grey);
+  z-index: 1;
+}
+
+.timeline-block {
+  width: calc(50% + 0.5rem);
+  display: flex;
+  justify-content: space-between;
+  clear: both;
+}
+
+.timeline-block-right {
+  float: right;
+}
+
+.timeline-block-left {
+  float: left;
+  direction: rtl;
+}
+
+.marker {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  border: 0.3125rem solid var(--primary-dark);
+  background: var(--primary-blue-triad);
+  margin-top: 0.625rem;
+  z-index: 3;
+}
+
+.timeline-content {
+  width: 95%;
+  padding: 0 0.9375rem;
+  color: var(--primary-dark-grey);
+  direction: ltr;
+}
+
+.timeline-content h3 {
+  margin-top: 0.3125rem;
+  color: var(--primary-hover-triad);
+  font-weight: 900;
+}
+
+/*Media*/
+
+@media (max-width: 768px) {
+  .experience-wrapper {
+    padding-left: 0;
+  }
+
+  .experience-wrapper::before {
+    left: 0.5rem;
+    margin-bottom: 1.875rem;
+  }
+
+  .timeline-block-right {
+    float: none;
+    width: 100%;
+  }
+
+  .timeline-block-left {
+    float: none;
+    direction: ltr;
+    width: 100%;
+  }
 }
