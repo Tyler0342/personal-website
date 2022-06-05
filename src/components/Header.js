@@ -16,8 +16,10 @@ const Header = () => {
             "React Native",
             "Ruby on Rails",
             "SQL",
-            "SQLite",
-            "PostGreSQL",
+            "Redux",
+            "Tailwind",
+            "Material-UI",
+            "Solidity",
           ]}
           typeSpeed={40}
           backSpeed={60}
