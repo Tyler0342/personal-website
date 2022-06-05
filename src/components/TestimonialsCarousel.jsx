@@ -1,11 +1,6 @@
 import React from "react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-// Avatars Import
-import avatars from "../images/avatars/avatar-1.png";
-import avatar2 from "../images/avatars/avatar-2.png";
-import avatar3 from "../images/avatars/avatar-3.png";
-import avatar4 from "../images/avatars/avatar-4.png";
 
 const TestimonialsCarousel = () => {
   return (

@@ -1,8 +1,5 @@
 import React from "react";
-import maggiosmarketplace from "../images/maggios-marketplace.png";
-import cityGuide from "../images/city-guide-app.png";
-import portfolio from "../images/portfolio.png";
-import taskManager from "../images/task-manager.png";
+import marketplace from "../images/maggios-marketplace.png";
 // FONTAWESOME IMPORTS
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearchPlus } from "@fortawesome/free-solid-svg-icons";
@@ -12,36 +9,45 @@ import "react-popupbox/dist/react-popupbox.css";
 
 const Portfolio = () => {
   // Maggio's Marketplace
-  const openPopupboxMaggiosMarketplace = () => {
+  const openPopupboxMarketplace = () => {
     const content = (
       <>
         <img
           className="portfolio-image-popupbox"
-          src={maggiosmarketplace}
+          src={marketplace}
           alt="Maggio's Marketplace"
         />
-        <p>
+        <p className={{fontSize: '8px'}}>
           I know what you're thinking, "NFTs are overhyped and cryptocurrencies are a scam".
           But I have a love of learning and I believe that smart contract functionality
           is an important step forward in both the technological and financial spaces.
-          So I wanted to create an app that can communicate with the blockchain using
-          Solidity that also has a beautiful frontend using Next.js and Tailwind CSS.
           This app is still in development.
         </p>
-        <b>GitHub:</b>{"https://github.com/Tyler0342/sc-marketplace"}
+        <b>GitHub:</b>{" Link to repository: "}
+        <a
+          className="hyper-link"
+          onClick={() =>
+            window.open("https://github.com/Tyler0342/sc-marketplace")
+          }
+        >
+         here
+        </a>
+
+        <b> Vercel:</b>{" Link to app still in development: "}
         <a
           className="hyper-link"
           onClick={() =>
             window.open("https://sc-marketplace.vercel.app/")
           }
         >
+         here
         </a>
       </>
     );
     PopupboxManager.open({ content });
   };
 
-  const popupboxConfigMaggiosMarketplace = {
+  const popupboxConfigMarketplace = {
     titleBar: {
       enable: true,
       text: "Front-End web design and Solidity smart contract project.",
@@ -55,10 +61,10 @@ const Portfolio = () => {
       <div className="container">
         <h1 className="text-center py-5">Portfolio</h1>
         <div className="image-box-wrapper row justify-content-center">
-          <div className="portfolio-image-box" onClick={openPopupboxMaggiosMarketplace}>
+          <div className="portfolio-image-box" onClick={openPopupboxMarketplace}>
             <img
               className="portfolio-image"
-              src={maggiosmarketplace}
+              src={marketplace}
               alt="Maggio's Marketplace"
             />
             <div className="overflow"></div>
@@ -67,7 +73,7 @@ const Portfolio = () => {
           {/* - */}
         </div>
       </div>
-      <PopupboxContainer {...popupboxConfigMaggiosMarketplace} />
+      <PopupboxContainer {...popupboxConfigMarketplace} />
     </div>
   );
 };
