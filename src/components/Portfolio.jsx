@@ -1,5 +1,5 @@
 import React from "react";
-import netflix from "../images/netflix.png";
+import maggiosmarketplace from "../images/maggios-marketplace.png";
 import cityGuide from "../images/city-guide-app.png";
 import portfolio from "../images/portfolio.png";
 import taskManager from "../images/task-manager.png";
@@ -11,27 +11,30 @@ import { PopupboxManager, PopupboxContainer } from "react-popupbox";
 import "react-popupbox/dist/react-popupbox.css";
 
 const Portfolio = () => {
-  // Netflix
+  // Maggio's Marketplace
   const openPopupboxNetflix = () => {
     const content = (
       <>
         <img
           className="portfolio-image-popupbox"
-          src={netflix}
-          alt="Netflix Clone Project..."
+          src={maggiosmarketplace}
+          alt="Maggio's Marketplace"
         />
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cumque
-          illo est expedita quos adipisci suscipit unde itaque qui perferendis.
+          I know what you're thinking, "NFTs are overhyped and cryptocurrencies are a scam".
+          But I have a love of learning and I believe that smart contract functionality
+          is an important step forward in both the technological and financial spaces.
+          So I wanted to create an app that can communicate with the blockchain using
+          Solidity that also has a beautiful frontend using Next.js and Tailwind CSS.
+          This app is still in development.
         </p>
-        <b>GitHub:</b>{" "}
+        <b>GitHub:</b>{"https://github.com/Tyler0342/sc-marketplace"}
         <a
           className="hyper-link"
           onClick={() =>
-            window.open("https://github.com/8020Coding/netflix-project")
+            window.open("https://sc-marketplace.vercel.app/")
           }
         >
-          https://github.com/8020Coding/netflix-project
         </a>
       </>
     );
@@ -191,7 +194,7 @@ const Portfolio = () => {
   const popupboxConfigTaskManager = {
     titleBar: {
       enable: true,
-      text: "Task Manager React and Redux project.",
+      text: "Front-End web design and Solidity smart contract project.",
     },
     fadeIn: true,
     fadeInSpeed: 500,
@@ -205,8 +208,8 @@ const Portfolio = () => {
           <div className="portfolio-image-box" onClick={openPopupboxNetflix}>
             <img
               className="portfolio-image"
-              src={netflix}
-              alt="Netflix Clone Project..."
+              src={maggiosmarketplace}
+              alt="Maggio's Marketplace"
             />
             <div className="overflow"></div>
             <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />

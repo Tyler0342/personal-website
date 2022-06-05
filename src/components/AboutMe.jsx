@@ -16,7 +16,7 @@ const AboutMe = () => {
             Hello! I'm Tyler. I'm a Full-Stack Software Engineer who has a
             passion for learning. I love to solve problems and come up with
             creative solutions. Technologies I use are JavaScript, React.js, Next.js,
-            Ruby on Rails, SQL, Tailwind CSS, Material-UI, Redux, and Solidity. 
+            Ruby on Rails, SQL, Tailwind, Material-UI, Redux, and Solidity. 
             My hobbies include playing the guitar and drums, hiking, and snowboarding. 
             Other interests include blockchain technologies and cooking. Before I can 
             begin development for your request, I require a project layout, so we both know what
