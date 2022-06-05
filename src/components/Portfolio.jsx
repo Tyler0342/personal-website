@@ -65,11 +65,6 @@ const Portfolio = () => {
             <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
           </div>
           {/* - */}
-          <div
-            className="portfolio-image-box"
-            onClick={openPopupboxTaskManager}
-          >
-        </div>
         </div>
       </div>
       <PopupboxContainer {...popupboxConfigMaggiosMarketplace} />
