@@ -4,9 +4,9 @@ import NavBar from "./components/NavBar";
 import Header from "./components/Header";
 import AboutMe from "./components/AboutMe";
 import Services from "./components/Services";
-// import Experience from "./components/Experience";
+import Experience from "./components/Experience";
 import Portfolio from "./components/Portfolio";
-// import Testimonials from "./components/Testimonials";
+import Testimonials from "./components/Testimonials";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
@@ -16,11 +16,11 @@ function App() {
       <NavBar />
       <Header />
       <AboutMe />
-      {/* <Experience /> */}
+      <Experience />
       <Services />
       <Portfolio />
-      {/* <Testimonials /> */}
-      <Contact />
+      <Testimonials />
+      {/* <Contact /> */}
       <Footer />
     </>
   );
