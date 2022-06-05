@@ -17,50 +17,15 @@ const TestimonialsCarousel = () => {
       autoPlay={true}
       interval={3000}
     >
-      <>
+      {/* <>
         <img src={avatars} alt="Avatar1" />
         <div className="myCarousel">
           <h3>Avatar 1</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
-            soluta earum doloribus repellendus architecto suscipit qui, neque
-            inventore odit veritatis!
+            Tyler is awesome!
           </p>
         </div>
-      </>
-      <>
-        <img src={avatar2} alt="Avatar2" />
-        <div className="myCarousel">
-          <h3>Avatar 2</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
-            soluta earum doloribus repellendus architecto suscipit qui, neque
-            inventore odit veritatis!
-          </p>
-        </div>
-      </>
-      <>
-        <img src={avatar3} alt="Avatar3" />
-        <div className="myCarousel">
-          <h3>Avatar 3</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
-            soluta earum doloribus repellendus architecto suscipit qui, neque
-            inventore odit veritatis!
-          </p>
-        </div>
-      </>
-      <>
-        <img src={avatar4} alt="Avatar4" />
-        <div className="myCarousel">
-          <h3>Avatar 4</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
-            soluta earum doloribus repellendus architecto suscipit qui, neque
-            inventore odit veritatis!
-          </p>
-        </div>
-      </>
+      </> */}
     </Carousel>
   );
 };
