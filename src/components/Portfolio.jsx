@@ -82,7 +82,6 @@ const Portfolio = () => {
         </div>
       </div>
       <PopupboxContainer {...popupboxConfigMaggiosMarketplace} />
-      <PopupboxContainer {...popupboxConfigTaskManager} />
     </div>
   );
 };
