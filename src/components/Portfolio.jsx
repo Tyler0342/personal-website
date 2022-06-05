@@ -50,15 +50,6 @@ const Portfolio = () => {
     fadeInSpeed: 500,
   };
 
-  const popupboxConfigTaskManager = {
-    titleBar: {
-      enable: true,
-      text: "Portfolio Projects",
-    },
-    fadeIn: true,
-    fadeInSpeed: 500,
-  };
-
   return (
     <div id="portfolio" className="portfolio-wrapper">
       <div className="container">
